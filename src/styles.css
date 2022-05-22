@@ -1,0 +1,16 @@
+*{
+    background-color:var(--blue);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Architects Daughter', cursive;
+}
+:root{
+    --blue:#232b9d;
+    --cream:#FFD99B;  
+    --white:aliceblue;
+}   

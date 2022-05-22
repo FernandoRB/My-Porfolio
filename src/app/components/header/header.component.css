@@ -1,0 +1,359 @@
+html{font-size: 62.5%;
+}
+body {
+    margin: 0;
+  }
+
+/*navbar*/
+
+/*HEADER*/
+html{font-size: 62.5%;
+}
+
+.div-header--container{
+    display:flex;    
+    position: relative;    
+    margin: auto;
+    margin-bottom: 20px;    
+    width: 100%;
+    flex-direction: row;  
+    top: 0px;      
+    background: linear-gradient(var(--white) 50%, #232b9d );
+    font-size: 2.5rem;
+    justify-content: center;
+    text-decoration: none;
+    list-style:none;
+    
+}
+.div-header--container li{
+   background: linear-gradient(var(--white) 50%, #232b9d );
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+    list-style-type:none;
+}
+.menu-items-1{
+    display: flex;
+    position: relative;    
+    top: 7px;
+    right: 80px;
+    justify-content: center;
+}
+.menu-items-1:visited{
+    display: flex;
+    position: relative;    
+    color: var(--blue);
+}
+.menu-items-1:hover{
+    background-color: transparent;
+    color:var(--cream);
+
+}
+.menu-items-1:active{
+    color:var(--blue);
+}
+
+.menu-items-2{
+    position: relative;
+    display: flex;
+    left: 80px;
+    bottom: 28px;
+
+}
+.menu-items-2:visited{
+    color: var(--blue);
+    position: relative;
+    display: flex;
+    left: 20px;
+
+}
+.menu-items-2:hover{
+    background-color: transparent;
+    color:var(--cream);
+
+}
+.menu-items-2:active{
+    color:var(--blue);
+}
+.menu-items-3{
+    display: flex;
+    position: relative;
+    width: 60px;
+    left: 35px;
+    bottom: 28px;
+}
+.menu-items-3:visited{
+    display: flex;
+    position: relative;
+    left: 20px;
+    color: var(--blue);
+}
+.menu-items-3:hover{
+    background-color: transparent;
+    color:var(--cream);
+}
+.menu-items-3:active{
+    color:var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Proyectos*/
+
+
+.post-list{
+  display: flex;    
+  margin:auto;  
+  margin-bottom:15px;  
+  min-height: 950px;
+  max-height: auto; 
+  width: 100%;    
+  flex-wrap:wrap;
+  background-color: transparent;
+  justify-content: center;  
+}
+.post{
+  position: relative;  
+  min-width: 320px;
+  max-width: 420px;
+  max-height: 250px;  
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: top;
+}
+.post-image {
+  margin: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 200px;
+  max-height: auto;  
+}
+.post-image img {
+  width: 100%;
+  height: 200px;    
+}
+.post-overlay {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 57%;
+  bottom: 10%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+.post-comments{
+  display: inline-block;
+  position: relative;    
+  width: 70px;   
+  height: 22px; 
+  right:5px; 
+  justify-self: center; 
+  justify-content: center;   
+  background-color: white;
+  background-size: cover;  
+  color:var(--blue);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.post-comments:hover{
+  width:73px;  
+  background-color: white;
+  color:var(--white);
+  font-size: 1.6rem;
+}
+.post-comments:active{
+  width: 75px;  
+  color:var(--blue) ;
+  background-color: var(--cream);
+  font-size: 1.6rem;
+}
+.post-comments:visited{
+    width: 75px;
+    color:var(--blue);
+    font-size: 1.5rem;
+}
+.post-likes{
+    display: inline-block;
+    position: relative;
+    margin-bottom:10px;    
+    height: 30px;
+    width: 120px;
+    top :20px;
+    left: 32%;    
+    justify-content: center;    
+    background-color: transparent;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.post-likes:visited{
+  position: relative;
+  display: flex;
+  left: 20px;
+  color: var(--cream);  
+}
+.post-likes:hover{
+  background-color: transparent;
+  color:var(--cream);
+  }
+
+.post-likes:active{
+  color:var(--white);
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 960px){
+  .post-list {
+    display: flex;    
+    flex-wrap:wrap;
+    margin:auto;    
+    width: 100%;
+    min-height: 510px;
+    justify-content: center;    
+    background-color: transparent; 
+}
+  .post{
+    position: relative;
+    min-width: 320px;
+    max-width: 420px;
+    max-height: 250px;   
+    bottom: 30px; 
+    background-color: transparent;    
+    vertical-align: top;
+    cursor: pointer;    
+}
+  .post-image {
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 200px;
+    max-height: auto;  
+  }
+  .post-image img {
+    width: 100%;
+    height: 200px;  
+  }
+
+
+}
+
+
+
+
+@media screen and (min-width: 1280px) {
+  .post-list {
+    display: flex; 
+    margin:auto;    
+    margin-bottom:15px;
+    min-height: 850px;
+    max-height: auto; 
+    width: 100%;              
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: transparent;    
+  }
+  .post {
+    position: relative;    
+    min-width: 320px;
+    max-width: 420px;
+    max-height: 250px;
+    bottom: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    vertical-align: top;
+}
+  .post-image {
+      margin: auto;
+      margin-right: 5px;
+      margin-left: 5px;
+      height: 200px;
+      max-height: auto;
+      background-color: transparent;
+      
+    }
+    .post-image img {
+      width: 100%;
+      height: 350px;
+      
+    }
+
+
+
+
+    .post-overlay {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      right: 57%;
+      top: 145%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 20px;
+    }
+    .post-comments {
+      background-color: white;
+      position: relative;
+      width: 70px;
+      right:5px;
+      height: 22px;
+      font-size: 1.5rem;
+      justify-self: center;
+      font-weight: bold;
+      justify-content: center;
+      text-align: center;
+      display: inline-block;
+      background-size: cover;
+      text-decoration: none;
+      border-radius: 6px;
+      color:var(--blue) ;
+    }
+    .post-comments:hover{
+      color:var(--blue) ;
+      font-size: 1.6rem;
+      width:73px;
+      background-color: var(--cream);
+    }
+    .post-comments:active{
+      color:var(--blue) ;
+      width: 75px;
+      font-size: 1.6rem;
+      background-color: var(--cream);
+    }
+    .post-comments:visited{
+      color:var(--blue) ;
+      width: 75px;
+      font-size: 1.5rem;
+    }
+
+
+
+
+
+
+
+
+  }
