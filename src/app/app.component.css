@@ -1,0 +1,244 @@
+/*HEADER*/
+html{font-size: 62.5%;
+}
+
+.div-header--container{
+    display:flex;    
+    position: relative;    
+    margin: auto;
+    margin-bottom: 20px;    
+    width: 100%;
+    flex-direction: row;  
+    top: 0px;      
+    background: linear-gradient(var(--white) 50%, #232b9d );
+    font-size: 2.5rem;
+    justify-content: center;
+    text-decoration: none;
+    list-style:none;
+    
+}
+.div-header--container li{
+   background: linear-gradient(var(--white) 50%, #232b9d );
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+    list-style-type:none;
+}
+.menu-items-1{
+    display: flex;
+    position: relative;    
+    top: 7px;
+    right: 80px;
+    justify-content: center;
+}
+.menu-items-1:visited{
+    display: flex;
+    position: relative;    
+    color: var(--blue);
+}
+.menu-items-1:hover{
+    background-color: transparent;
+    color:var(--cream);
+
+}
+.menu-items-1:active{
+    color:var(--blue);
+}
+
+.menu-items-2{
+    position: relative;
+    display: flex;
+    left: 80px;
+    bottom: 28px;
+
+}
+.menu-items-2:visited{
+    color: var(--blue);
+    position: relative;
+    display: flex;
+    left: 20px;
+
+}
+.menu-items-2:hover{
+    background-color: transparent;
+    color:var(--cream);
+
+}
+.menu-items-2:active{
+    color:var(--blue);
+}
+.menu-items-3{
+    display: flex;
+    position: relative;
+    width: 60px;
+    left: 35px;
+    bottom: 28px;
+}
+.menu-items-3:visited{
+    display: flex;
+    position: relative;
+    left: 20px;
+    color: var(--blue);
+}
+.menu-items-3:hover{
+    background-color: transparent;
+    color:var(--cream);
+}
+.menu-items-3:active{
+    color:var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+/*Descripcion*/
+
+.items-img{   
+    
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 70px;
+    min-width: 50px;
+    max-width: 120px;
+    min-height: 50px;
+    max-height:120px;
+    height: 70px;
+    align-self: center;
+    border-radius: 200px;
+}
+
+.container-body{
+    
+    height: 300px;
+    max-height:1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin:auto;    
+    max-width: 1200px;
+
+
+} 
+.container-description{
+    min-height: 330px;
+
+
+}
+
+.text-1{   
+    background-color: transparent;
+    margin-top: 10px;
+    text-align: center;
+    display:flex;
+    position: relative;
+    width: 140px;
+    height: 60px;
+    font-size: 4.8rem;
+    color: aliceblue;
+    margin: auto;
+    justify-content: center;
+}
+.text-2{    
+    background-color: transparent;
+    display:flex;
+    position: relative;    
+    margin: auto;    
+    width:310px;
+    height: 55px;
+    justify-content: center;
+    font-size:2.3rem;
+    color: aliceblue;
+    text-align: center;    
+}
+.text-3{    
+    display:flex;
+    position: relative;    
+    margin: auto;
+    max-height: 220px;    
+    justify-content: center;    
+    top: 10px;
+    background-color: transparent;   
+    color:var(--white);
+    font-size:2.6rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-contact {
+    display: inline-flex;
+    position: relative;    
+    margin: auto;
+    margin-top: 95px;    
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    background: transparent;
+}
+.button-github{
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 100px;
+    right: 20px;
+    justify-content: center;
+    background-color: var(--white);    
+    color:var(--blue);
+    font-size: 2.3rem;
+    border-color: var(--white);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.button-linkedin{
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 100px;    
+    justify-content: center;
+    left: 20px;    
+    background-color: var(--white);    
+    color:var(--blue);    
+    font-size: 2.3rem;
+    border-color: var(--white);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.button-github:hover, .button-linkedin:hover{
+    background-color: var(--blue);
+    color:var(--cream);
+}
+.button-github:active, .button-linkedin:active{
+    color:var(--white);
+}
+
+
+@media screen and (min-width: 425px){
+    .container-contact {
+        display: inline-flex;
+        position: relative;        
+        margin: auto;     
+        margin-top: 30px;           
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: row;
+        background: transparent;
+    }
+}
+

@@ -7,10 +7,11 @@ import { BodyComponent } from './components/body/body.component';
 import { ErrorComponent } from './components/error/error.component';
 
 const appRutes:Routes = [
-    {path:'AppComponent', component:AppComponent},
+ // {path:'AppComponent', component:AppComponent},
+    { path: '', redirectTo: '/BodyComponent', pathMatch: 'full' },
     {path:'HeaderComponent', component:HeaderComponent}, 
     {path:'BodyComponent', component:BodyComponent},
-    {path:'**', component:ErrorComponent}
+    { path: '', redirectTo: '/BodyComponent', pathMatch: 'full' },
 
 ];
 export const AppRoutingProviders:any[] = [];
